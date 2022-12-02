@@ -26,16 +26,17 @@ EditText editTextNombre;
     }
     public void Dividir(View view){
 
-    float dividendo =Integer.parseInt(editTextDividendo.toString());
+    float dividend =Integer.parseInt(editTextDividendo.toString());
     float divisor   =Integer.parseInt(editTextDivisor.toString());
 
 
         int i;
-        for (i=0;dividendo!=divisor;++i);{
-            dividendo+=divisor;
+        for (i=0;dividend!=divisor;++i);{
+            dividend+=divisor;
         }
 
-        editTextInvertido.setText(i);
+        editTextParteEntera.setText(i);
+
     }
 
 
@@ -49,7 +50,6 @@ EditText editTextNombre;
             dividendoe+=divisore;
         }
 
-        editTextInvertido.setText(i);
 
     }
 }
