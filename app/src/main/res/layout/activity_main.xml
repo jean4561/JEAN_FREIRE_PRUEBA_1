@@ -23,7 +23,8 @@
             android:layout_height="wrap_content"
             android:text="Nombre"
             tools:layout_editor_absoluteX="32dp"
-            tools:layout_editor_absoluteY="62dp" />
+            tools:layout_editor_absoluteY="62dp"
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/textView2"
@@ -31,7 +32,8 @@
             android:layout_height="wrap_content"
             android:text="Apellidos"
             tools:layout_editor_absoluteX="32dp"
-            tools:layout_editor_absoluteY="126dp" />
+            tools:layout_editor_absoluteY="126dp"
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/textView3"
@@ -39,7 +41,8 @@
             android:layout_height="wrap_content"
             android:text="Dividendo"
             tools:layout_editor_absoluteX="32dp"
-            tools:layout_editor_absoluteY="219dp" />
+            tools:layout_editor_absoluteY="219dp"
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/textView4"
@@ -47,7 +50,8 @@
             android:layout_height="wrap_content"
             android:text="Divisor"
             tools:layout_editor_absoluteX="32dp"
-            tools:layout_editor_absoluteY="288dp" />
+            tools:layout_editor_absoluteY="288dp"
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/textView5"
@@ -55,7 +59,8 @@
             android:layout_height="wrap_content"
             android:text="Parte_Entera"
             tools:layout_editor_absoluteX="32dp"
-            tools:layout_editor_absoluteY="368dp" />
+            tools:layout_editor_absoluteY="368dp"
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/textView6"
@@ -63,7 +68,8 @@
             android:layout_height="wrap_content"
             android:text="Residuo"
             tools:layout_editor_absoluteX="46dp"
-            tools:layout_editor_absoluteY="440dp" />
+            tools:layout_editor_absoluteY="440dp"
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/textView7"
@@ -71,7 +77,8 @@
             android:layout_height="wrap_content"
             android:text="Num Invertido"
             tools:layout_editor_absoluteX="32dp"
-            tools:layout_editor_absoluteY="531dp" />
+            tools:layout_editor_absoluteY="531dp"
+            tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/editTextNombre"
@@ -80,7 +87,8 @@
             android:ems="10"
             android:inputType="textPersonName"
             tools:layout_editor_absoluteX="164dp"
-            tools:layout_editor_absoluteY="47dp" />
+            tools:layout_editor_absoluteY="47dp"
+            tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/editTextApellido"
@@ -89,7 +97,8 @@
             android:ems="10"
             android:inputType="textPersonName"
             tools:layout_editor_absoluteX="164dp"
-            tools:layout_editor_absoluteY="114dp" />
+            tools:layout_editor_absoluteY="114dp"
+            tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/editTextDividendo"
@@ -98,7 +107,8 @@
             android:ems="10"
             android:inputType="textPersonName"
             tools:layout_editor_absoluteX="164dp"
-            tools:layout_editor_absoluteY="206dp" />
+            tools:layout_editor_absoluteY="206dp"
+            tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/editTextDivisor"
@@ -107,7 +117,8 @@
             android:ems="10"
             android:inputType="textPersonName"
             tools:layout_editor_absoluteX="157dp"
-            tools:layout_editor_absoluteY="279dp" />
+            tools:layout_editor_absoluteY="279dp"
+            tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/editTextParteEntera"
@@ -116,7 +127,8 @@
             android:ems="10"
             android:inputType="textPersonName"
             tools:layout_editor_absoluteX="157dp"
-            tools:layout_editor_absoluteY="354dp" />
+            tools:layout_editor_absoluteY="354dp"
+            tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/editTextResiduo"
@@ -125,7 +137,8 @@
             android:ems="10"
             android:inputType="textPersonName"
             tools:layout_editor_absoluteX="157dp"
-            tools:layout_editor_absoluteY="422dp" />
+            tools:layout_editor_absoluteY="425dp"
+            tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/editTextInvertido"
@@ -134,7 +147,8 @@
             android:ems="10"
             android:inputType="textPersonName"
             tools:layout_editor_absoluteX="157dp"
-            tools:layout_editor_absoluteY="505dp" />
+            tools:layout_editor_absoluteY="505dp"
+            tools:ignore="MissingConstraints" />
 
         <Button
             android:id="@+id/buttonSiguiente"
@@ -142,7 +156,8 @@
             android:layout_height="wrap_content"
             android:text="Siguiente"
             tools:layout_editor_absoluteX="140dp"
-            tools:layout_editor_absoluteY="646dp" />
+            tools:layout_editor_absoluteY="646dp"
+            tools:ignore="MissingConstraints" />
 
         <Button
             android:id="@+id/buttonReesultados"
@@ -150,6 +165,7 @@
             android:layout_height="wrap_content"
             android:text="Mostrar Resultados"
             tools:layout_editor_absoluteX="101dp"
-            tools:layout_editor_absoluteY="585dp" />
+            tools:layout_editor_absoluteY="585dp"
+            tools:ignore="MissingConstraints" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
