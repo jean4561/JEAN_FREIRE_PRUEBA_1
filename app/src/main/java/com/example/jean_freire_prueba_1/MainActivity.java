@@ -25,14 +25,31 @@ EditText editTextNombre;
 
     }
     public void Dividir(View view){
+
     float dividendo =Integer.parseInt(editTextDividendo.toString());
     float divisor   =Integer.parseInt(editTextDivisor.toString());
-    float resultado =dividendo/divisor;
 
+
+        int i;
+        for (i=0;dividendo!=divisor;++i);{
+            dividendo+=divisor;
+        }
+
+        editTextInvertido.setText(i);
     }
+
+
     public void Enteros(View view){
-        int dividendo =Integer.parseInt(editTextDividendo.toString());
-        int divisor   =Integer.parseInt(editTextDivisor.toString());
-        int resultado =dividendo/divisor;
+        int dividendoe =Integer.parseInt(editTextDividendo.toString());
+        int divisore   =Integer.parseInt(editTextDivisor.toString());
+
+
+        int i;
+        for (i=0;dividendoe!=divisore;++i);{
+            dividendoe+=divisore;
+        }
+
+        editTextInvertido.setText(i);
+
     }
 }
